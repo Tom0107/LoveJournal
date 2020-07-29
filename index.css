@@ -23,4 +23,9 @@ img{
 	display:block;
 	margin:0px auto;
 	margin-top:10px;
+	border-radius:12px;
+}
+a.dropdown-item{
+	color:blue;
+	text-decoration:underline;
 }
