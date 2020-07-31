@@ -7,7 +7,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+		
 		<!-- Core theme CSS -->
 		<link rel="stylesheet" type="text/CSS" href="./CSS/index.css">
 
@@ -15,30 +15,27 @@
 		<link rel="icon" type="image/Icon" href="./Image/favicon.ico">
 	</head>
 	<body>
-		<div class="dropdown">
-			<img src="./Image/index-couple.jpg">
-			<form class="px-4 py-3">
-				<div class="form-group">
-					<label for="exampleDropdownFormEmail1">電子郵件</label>
-					<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+		<form>
+			<div class="row">
+				<div class="col">
+					<input type="text" class="form-control" placeholder="姓氏">
 				</div>
-				<div class="form-group">
-					<label for="exampleDropdownFormPassword1">密碼</label>
-					<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+				<div class="col">
+					<input type="text" class="form-control" placeholder="名字">
 				</div>
-				<div class="form-group">
-					<div class="form-check">
-						<input type="checkbox" class="form-check-input" id="dropdownCheck">
-						<label class="form-check-label" for="dropdownCheck">
-							記住我
-						</label>
-					</div>
-				</div>
-				<button type="submit" class="btn btn-primary">登入</button>
-			</form>
-			<a class="dropdown-item" href="#" onclick="window.location.href='./signup.html'">建立新帳號</a>
-			<a class="dropdown-item" href="#">忘記帳號?</a>
-		</div>
+			</div>
+			<p>
+			<div class="form-group">
+				<label for="exampleInputEmail1">電子郵件</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">密碼</label>
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="設定密碼">
+			</div>
+			<button type="button" class="btn btn-primary btn-block">註冊</button>
+		</form>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
