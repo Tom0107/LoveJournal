@@ -1,0 +1,57 @@
+h1{
+	font-size:3.5rem;
+	font-weight:bold;
+	text-shadow:black 0 0 3px;
+}
+h2{
+	text-align:center;
+	margin-top:50px;
+}
+h6{
+	text-align:center;
+}
+nav{
+	font-weight:bold;
+}
+header.masthead{
+	background-image:url(../Image/masthead-background.jpg);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-attachment:scroll;
+	background-position:center;
+	background-size:cover;
+	padding-top:13rem;
+	padding-bottom:12rem;
+}
+header div.row{
+	display:inline-block;
+	color:white;
+	text-align:center;
+}
+header div p{
+	font-weight:bold;
+	text-shadow:black 0 0 3px;
+	padding:0 10px;
+}
+header div a{
+	display:inline-block;
+	width:200px;
+	height:35px;
+	line-height:30px;
+	background-color:Orange;
+	text-shadow:black 0 0 3px;
+	border-radius:35px;
+	cursor:pointer;
+}
+#album{
+	background-color:pink;
+}
+img{
+	max-height:252px;
+}
+#meteor{
+	background-color:gray;
+}
+#list{
+	text-align:center;
+}

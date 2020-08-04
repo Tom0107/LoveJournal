@@ -13,11 +13,12 @@
 
 		<title>戀愛日誌</title>
 		<link rel="icon" type="image/Icon" href="./Image/favicon.ico">
+		<script type="text/JavaScript" src="./JavaScript/login.js"></script>
 	</head>
 	<body>
 		<div class="dropdown">
 			<img src="./Image/index-couple.jpg">
-			<form class="px-4 py-3">
+			<form class="px-4 py-3" id="form" method="post">
 				<div class="form-group">
 					<label for="exampleDropdownFormEmail1">電子郵件</label>
 					<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
@@ -34,7 +35,7 @@
 						</label>
 					</div>
 				</div>
-				<button type="submit" class="btn btn-primary">登入</button>
+				<button type="submit" class="btn btn-primary" onclick="login()">登入</button>
 			</form>
 			<a class="dropdown-item" href="#" onclick="window.location.href='./HTML/signup.html'">建立新帳號</a>
 			<a class="dropdown-item" href="#">忘記帳號?</a>
