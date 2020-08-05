@@ -16,6 +16,7 @@ function send(){
 		success: function(response){
 			if(response == "成功"){
 				alert("註冊成功!");
+				window.location.href="./journal.html";
 			}
 		},
 	});
