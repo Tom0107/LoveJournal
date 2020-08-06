@@ -12,20 +12,16 @@ body{
 	justify-content:center;
 	align-items:center;
 }
-div.dropdown{
+form{
 	width:300px;
 	background-color:white;
+	padding:20px;
 	box-shadow:4px 4px 12px #97CBFF;
 }
 img{
 	width:100px;
 	height:100px;
 	display:block;
-	margin:0px auto;
-	margin-top:10px;
+	margin:10px auto;
 	border-radius:12px;
-}
-a.dropdown-item{
-	color:blue;
-	text-decoration:underline;
 }

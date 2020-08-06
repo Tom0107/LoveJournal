@@ -1,4 +1,4 @@
-<!doctype html> <!-- 請瀏覽器用HTML 5的定義來解讀 -->
+<!doctype html> <!-- 請瀏覽器用 HTML 5 的定義來解讀 -->
 <html lang="zh-Hant-TW"> <!-- 標註網頁之語系 -->
 	<head>
 		<!-- Required meta tags -->
@@ -6,45 +6,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例 100% -->
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
 
 		<!-- Core theme CSS -->
 		<link rel="stylesheet" type="text/CSS" href="./CSS/index.css">
 
 		<title>戀愛日誌</title>
 		<link rel="icon" type="image/Icon" href="./Image/favicon.ico">
-		<script type="text/JavaScript" src="./JavaScript/login.js"></script>
 	</head>
 	<body>
-		<div class="dropdown">
+		<form>
 			<img src="./Image/index-couple.jpg">
-			<form class="px-4 py-3" id="form" method="GET">
-				<div class="form-group">
-					<label for="exampleDropdownFormEmail1">電子郵件</label>
-					<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-				</div>
-				<div class="form-group">
-					<label for="exampleDropdownFormPassword1">密碼</label>
-					<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-				</div>
-				<div class="form-group">
-					<div class="form-check">
-						<input type="checkbox" class="form-check-input" id="dropdownCheck">
-						<label class="form-check-label" for="dropdownCheck">
-							記住我
-						</label>
-					</div>
-				</div>
-				<button type="submit" class="btn btn-primary" onclick="login()">登入</button>
-			</form>
-			<a class="dropdown-item" href="#" onclick="window.location.href='./HTML/signup.html'">建立新帳號</a>
-			<a class="dropdown-item" href="#">忘記帳號?</a>
-		</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput">姓氏</label>
+				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Last name">
+			</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput2">名字</label>
+				<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="First name">
+				<small id="emailHelp" class="form-text text-muted">The name is for record only, it doesn’t matter if you don’t fill it in.</small>
+			</div>
+			<button type="button" class="btn btn-primary btn-block">登入</button>
+		</form>
+		<script type="text/JavaScript" src="./JavaScript/index.js"></script>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 	</body>
 </html>
